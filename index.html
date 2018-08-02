@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>标题</title>
+  <style>
+    .map {
+      width: 800px;
+      height: 600px;
+      background-color: #cccccc;
+      position: relative;
+      top: 0px ;
+      left: 0px;
+    }
+  </style>
+</head>
+<body>
+<div class="map" id="map"></div>
+<!--<script src="Food.js"></script>-->
+<!--<script src="snake.js"></script>-->
+<!--<script src="Game.js"></script>-->
+<script src="index.js"></script>
+<script>
+  //获取地图
+  var map  = document.getElementById("map");
+
+  //游戏逻辑代码
+  //搞一个 游戏控制器  对象
+  //start()游戏开始的方法.
+  var game1 = new Game(map);
+  game1.start();
+
+
+  //测试生成食物的代码
+  // var food1 = new Food();
+  // food1.render(map);
+
+
+  //测试生成蛇代码
+  // var snake1 = new Snake();
+  // snake1.render(map);
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
